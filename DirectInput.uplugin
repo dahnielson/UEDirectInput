@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Windows DirectInput",
+	"Description": "Handle input from DirectInput devices",
+	"Category": "InputDevices",
+	"CreatedBy": "Anders Dahnielson",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DirectInput",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
