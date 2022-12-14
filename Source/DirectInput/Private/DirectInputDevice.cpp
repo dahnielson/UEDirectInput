@@ -205,6 +205,12 @@ void FDirectInputDevice::Tick(float DeltaTime)
 
 void FDirectInputDevice::SendControllerEvents()
 {
+	// Don't run if in editor
+	if (GEngine->IsEditor())
+	{
+		return;
+	}
+
 	int32 ControllerId = 0;
 	for (FJoystick& Joy : GInputDevices)
 	{
